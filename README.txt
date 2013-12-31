@@ -1,1 +1,1 @@
-doc/slamhound.txt
+doc/vim-slamhound.txt

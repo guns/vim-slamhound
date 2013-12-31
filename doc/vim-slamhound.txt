@@ -1,6 +1,4 @@
-vim-slamhound                                  *vim-slamhound* *slamhound.txt*
-
-Slamhound integration for vim.
+*vim-slamhound.txt*	Slamhound integration for vim
 
 First install:
 >
