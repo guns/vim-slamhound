@@ -9,7 +9,7 @@
 function! slamhound#reconstruct(file, textwidth)
     let file = escape(a:file, '"')
     let tw = a:textwidth < 1 ? 80 : a:textwidth
-    call fireplace#eval(
+    call fireplace#session_eval(
         \   "(require 'slam.hound 'clojure.pprint)"
         \ . '(let [file (clojure.java.io/file "' . file . '")]'
         \ . '  (binding [clojure.pprint/*print-right-margin* ' . tw . ']'
