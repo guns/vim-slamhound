@@ -9,7 +9,7 @@
 augroup slamhound
         autocmd!
         autocmd FileType clojure
-                \ command! -bar Slamhound
+                \ command! -bar -buffer Slamhound
                 \ if &modified |
                 \       echom "Buffer contains unsaved changes!" |
                 \ else |
