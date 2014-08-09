@@ -13,6 +13,6 @@ augroup slamhound
                 \ if &modified |
                 \       echom "Buffer contains unsaved changes!" |
                 \ else |
-                \       call slamhound#reconstruct(expand('%'), &textwidth) |
+                \       call slamhound#reconstruct(expand('%:p'), &textwidth) |
                 \ endif
 augroup END
